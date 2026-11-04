@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260"><path d="M37 58 130 17 223 58 130 99Z" fill="#19bded"/><path d="M77 83V101Q130 80 183 101V83L130 106Z" fill="#09233f"/><path d="M218 61V103" stroke="#19bded" stroke-width="7" stroke-linecap="round"/><path d="M218 99 210 119H226Z" fill="#19bded"/><path d="M182 130C160 111 97 107 78 132C47 173 195 163 183 211C175 244 105 252 69 223" fill="none" stroke="#0866e8" stroke-width="28" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="24 14 192 192" role="img" aria-labelledby="title"><title id="title">SmartApply RW — Book and arrow</title><path d="M120 183C99 167 70 161 43 167V76C68 70 96 77 120 94C144 77 172 70 197 76V167C170 161 141 167 120 183Z" fill="none" stroke="#0b2845" stroke-width="11" stroke-linejoin="round"/>
+<path d="M120 182V104" stroke="#0b2845" stroke-width="11" stroke-linecap="round"/>
+<path d="M120 139V32M96 56l24-24 24 24" fill="none" stroke="#0866e8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m65 105 28 8m54 0 28-8m-110 28 28 8m54 0 28-8" fill="none" stroke="#19bded" stroke-width="7" stroke-linecap="round"/></svg>
