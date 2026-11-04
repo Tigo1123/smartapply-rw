@@ -1,0 +1,1 @@
+{"name":"smartapply-rw","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"node scripts/serve.mjs","build":"node --check dist/app.js","check":"node --check dist/app.js"},"engines":{"node":">=20"}}
