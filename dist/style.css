@@ -5,3 +5,18 @@
 .whatsapp-icon{width:23px;height:23px;display:block;flex-shrink:0}.whatsapp-label{display:inline-flex;align-items:center;gap:8px;direction:ltr}.whatsapp-label .whatsapp-icon{color:#128c60;width:21px;height:21px}.floating-wa{gap:9px;min-height:48px}.uni-photo img[src*="unilak-campus"]{object-position:50% 61%}footer .brand .blue{color:#65d7ff}footer .brand small{background:#17405e;color:#83dfff}@media(max-width:760px){.floating-wa{width:52px;height:52px;justify-content:center;padding:0}.floating-wa .whatsapp-icon{width:29px;height:29px}}
 
 .trust-strip{flex-direction:column;gap:20px}.destination-list{display:grid;grid-template-columns:repeat(6,1fr);gap:28px;align-items:center;width:100%;direction:ltr;text-align:center}.destination-list a{font:800 17px Manrope;color:#526c83}.destination-list a:hover{color:var(--blue)}.review-carousel{position:relative;padding:0 54px}.review-carousel .arrows{position:absolute;inset:0;pointer-events:none;align-items:center;justify-content:space-between}.review-carousel .arrows button{pointer-events:auto;flex-shrink:0}.review-pagination{direction:ltr}.uni-card{display:flex;flex-direction:column}.uni-copy{flex:1;display:flex;flex-direction:column}.uni-links{margin-top:auto;padding-top:20px}.uni-copy p{margin-bottom:18px}@media(max-width:760px){.destination-list{grid-template-columns:repeat(3,1fr);gap:23px 15px}.destination-list a{font-size:13px}.review-carousel{padding:0 32px}.review-carousel .arrows button{width:29px;height:38px;border-radius:10px}.review-card{padding:22px 18px}.reviews .section-heading{display:block}}
+/* Study guide: reuse the site's palette, typography and button styles. */
+/* Keep the additional navigation link clear at tablet widths. */
+@media(max-width:1280px){.header-actions .btn{display:none}}
+@media(max-width:960px){.menu{display:block}#nav{display:none;position:absolute;top:100%;left:0;right:0;background:white;box-shadow:0 12px 20px #09233f15;padding:22px;flex-direction:column;font-size:14px;gap:18px;max-height:calc(100dvh - 100px);overflow-y:auto}#nav.open{display:flex}}
+.study-guide-card .btn{white-space:nowrap}
+.study-guide{padding-top:0}
+.study-guide-card{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:48px;align-items:center;padding:42px;border:1px solid var(--line);border-radius:9px;background:var(--pale)}
+.study-guide-copy p{margin-top:18px;font-size:14px}
+.study-guide-resource{text-align:center}
+.study-guide-icon{width:56px;height:56px;color:var(--blue);margin-bottom:8px}
+.study-guide-meta{display:flex;justify-content:center;align-items:center;gap:10px;font-size:13px;font-weight:700;color:var(--muted-strong)}
+.study-guide-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:22px}
+.study-guide-download{background:white;color:var(--blue)}
+.study-guide-download:hover{background:#e9f3ff}
+@media(max-width:760px){.study-guide{padding-top:0}.study-guide-card{grid-template-columns:minmax(0,1fr);gap:28px;padding:26px 22px}.study-guide-resource{border-top:1px solid var(--line);padding-top:24px}.study-guide-actions .btn{width:100%}}
