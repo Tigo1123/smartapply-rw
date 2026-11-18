@@ -20,3 +20,9 @@
 .study-guide-download{background:white;color:var(--blue)}
 .study-guide-download:hover{background:#e9f3ff}
 @media(max-width:760px){.study-guide{padding-top:0}.study-guide-card{grid-template-columns:minmax(0,1fr);gap:28px;padding:26px 22px}.study-guide-resource{border-top:1px solid var(--line);padding-top:24px}.study-guide-actions .btn{width:100%}}
+
+/* Public compliance pages */
+.footer-legal{display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:center}
+.footer-legal a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.footer-legal a:hover{color:#fff}
+@media(max-width:900px){.footer-bottom{flex-wrap:wrap;justify-content:center;text-align:center}}
